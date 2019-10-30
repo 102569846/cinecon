@@ -1,0 +1,307 @@
+/*
+filename: [style.css]
+author: [Jess + Elvis]
+created: []
+last modified: []
+description: [DEV] */
+
+
+/* Home Page */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #13111C;
+    /* Blue: 06021A 134D62 080322
+    silver for borders: BAC1C9 A6B0B9 */
+    color: white;
+}
+
+header {
+   background:#e8e9eb;
+   padding-top: 10px;
+   height: 30px;
+
+}
+
+footer {
+    background:	#e8e9eb;
+    padding-top: 7px;
+    /* height: 50px; */
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
+
+
+#trade_mark {
+    color:#16181d;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 2em;
+}
+
+
+h1, h2 {
+    font-weight: lighter;
+    color: #e8e9eb;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.movie_details {
+    color: #e4b363;
+}
+
+#heading {
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 200px;
+    padding-left: 100px;
+
+}
+
+#heading td {
+    text-align: center;
+    padding: 5px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+
+#about, #log_sign {
+    display: inline;
+
+}
+
+#about {
+    padding-left: 20px;
+}
+
+#log_sign {
+    float: right;
+    padding-right: 20px;
+}
+
+#search {
+    text-align: center;
+}
+
+a:hover {
+    font-style: italic;
+    /* color: black; */
+    text-decoration: underline;
+}
+
+#sub {
+    color: #16181d;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 30px;
+
+
+}
+
+#sub:hover {
+    text-shadow: 0px 0px 6px white;
+    -webkit-box-shadow: 0px 5px 40px -10px black;
+    -moz-box-shadow: 0px 5px 40px -10px black;
+    transition: all 0.01s ease 0s;
+    font-style: italic;
+}
+
+#sub, #movie_search {
+    border: 1px solid black;
+    background: #F5F5F5;
+}
+
+#movie_search {
+    color: #16181d;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 770px;
+    height: 30px;
+}
+
+a {
+    color: #16181d;
+    text-decoration: none;
+ }
+
+.logsign_link {
+    text-align: center;
+    padding-top: 5px;
+  }
+
+.logsign_link a {
+    color:#e4b363;
+  }
+
+#purpose, #beliefs, #how {
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 400px;
+    padding: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    display: inline-grid;
+ }
+
+#original_title {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    max-width: 300px;
+    font-size: 20px;
+}
+
+#movie_item {
+    height: 500px;
+    width: 260px;
+  }
+
+/* about */
+.about_us {
+    text-align: center;
+}
+
+/* sign up */
+
+#signup, #sign_heading, #sign_in {
+    text-align: center;
+    /* border: 2px solid black; */
+}
+
+fieldset {
+    width: 600px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 5px;
+}
+
+#sign_space {
+    padding-top: 30px;
+}
+
+#sign_submit {
+    /* color: silver; */
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 25px;
+}
+
+#register, #login {
+    padding-top: 150px;
+    text-align: center;
+}
+
+/*MovieDetails*/
+#MDcontainer {
+  margin: 0 auto;
+  width: 60%;
+}
+
+#Image {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+#Title {
+  float: right;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+#plot {
+  float: right;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+.Information{
+  float: left;
+  width: 100%;
+  padding: 2px;
+  margin: 0;
+}
+
+ul{
+  width: 70%;
+  margin: 1% auto;
+  display: block;
+  overflow: hidden;
+  padding: 20px;
+}
+
+#comments, #comments_title{
+  width: 70%;
+  margin: 1% auto;
+  display: block;
+  overflow: hidden;
+  padding: 20px;
+  padding: 6px;
+}
+
+#Trailer{
+  float: right;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#nouser{
+    display: none;
+    color: red;
+}
+
+#box{
+    resize: none;
+}
+
+input{
+    padding: 4px 5px;
+}
+
+.usercomment{
+    
+    border: 2px solid ;
+    padding: .5em;
+}
+
+.comment_text{
+    color: #e0dfd5;
+}
+
+.comment_user{
+    color: #e4b363;
+    font-size: 20px;
+}
