@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="Dev Project" />
+    <meta name="keywords"    content="HTML" />
+    <meta name="author"      content="Jess" />
+    <link rel="stylesheet" href="styles/style.css"> <!-- links to css file -->
+    <!-- External Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Pacifico&display=swap" rel="stylesheet">  
+    <title>Movie Details</title>
+</head>
+<body>
+
+<div id="page-container">
+<div id="content-wrap">
+<header>
+    <div id="about">
+        <a href="Home.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="About.html">About</a>
+    </div>
+    <div id="log_sign">
+        <a href="Sign.html">Sign Up</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Login.html">Log In</a>
+    </div>
+</header>
+
+<!-- All the shit from the script ends up here -->
+<div id="MDcontainer">
+	<div id="movie_details"></div>
+    <div id="trailer_details"></div>
+    <h2 id="comments_title">Comments</h2>
+	<div id="comments">
+		<form id="comment">
+				<label><strong>Leave a comment:</strong></br>
+				<textarea name="Comments" id="comment_item" placeholder="Enter comments here..." rows="4" cols="60"></textarea></label>
+				<input type="submit" value="Comment"/>
+        </form>
+	</div>
+</div>
+
+</div>
+<footer id="footer">
+        <div id="trade_mark">Cinema Connoisseurs &trade;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; <a href=mailto:movieconnoisseurs.contact@gmail.com>Contact Us</a></div>
+</footer>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="scripts/MovieDB.js"></script>
+<script>
+	findmovie();
+</script>
+
+</body>
+</html>

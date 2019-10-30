@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="Dev Project" />
+    <meta name="keywords"    content="HTML" />
+    <meta name="author"      content="Jess" />
+		<!-- links to css file -->
+    <link rel="stylesheet" href="styles/style.css">
+		<!-- Important Script Files -->
+	<script src="https://code.jquery.com/jquery-3.4.1.js"  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <script src="scripts/Sign.js"></script> 
+  <!-- External Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Pacifico&display=swap" rel="stylesheet">  
+    <link rel="icon" type="image/png" href="images/logo_rel.png" />
+    <title>Sign Up</title>
+</head>
+<body>
+<div id="page-container">
+<div id="content-wrap">
+<header>
+    <div id="about">
+        <a href="Home.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="About.html">About</a>
+    </div>
+    <div id="log_sign">
+        <a href="Sign.html">Sign Up</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Login.html">Log In</a>
+    </div>
+</header>
+
+<h1 id="register">Register An Account</h1>
+<div id="sign_space"></div>
+<!-- <h1 id="sign_heading">Sign up</h1> -->
+<form id="signup" method="post">
+    <fieldset id="fieldset">
+    <br />
+    <p><label for="email">Email: <span id="err_email"></span>&nbsp;</label>
+        <input id="email" type="text" name="email" required="required" />
+    </p>
+
+    <p><label for="username">Username: <span id="err_user"></span>&nbsp;</label>
+        <input id="username" type="text" name="username" required="required" />
+    </p>
+    
+    <p><label for="password">Password: <span id="err_pass"></span>&nbsp;</label>
+        <input id="password" type="password" name="password" required="required" />
+    </p>
+
+    <p><label for="confirm">Confirm password: <span id="err_confirm"></span>&nbsp;</label>
+        <input id="confirm" type="password" name="confirm" required="required" />
+    </p>
+    <p><input id="sign_submit" type="submit" value="Sign Up" />
+  
+    </p>
+    </fieldset>
+</form>
+
+
+<div class="logsign_link"><a href="Login.html">Already have an account? Login here.</a></div>
+
+</div>
+<footer id="footer">
+        <div id="trade_mark">Cinema Connoisseurs &trade;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; <a href=mailto:movieconnoisseurs.contact@gmail.com>Contact Us</a></div>
+</footer>
+</div>
+
+</body>
+</html>
+
