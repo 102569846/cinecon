@@ -147,10 +147,14 @@ a:hover {
     height: 30px;
 }
 
-a {
+a,.dark_text {
     color: #16181d;
     text-decoration: none;
  }
+
+.dark_text {
+    float: left;
+}
 
 .logsign_link {
     text-align: center;
@@ -186,6 +190,24 @@ a {
 /* about */
 .about_us {
     text-align: center;
+}
+
+#purpose, #beliefs, #how {
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color: #BAC1C9;
+  width: 400px;
+  padding: 47px;
+  margin-left:auto;
+  margin-right:auto;
+  display: inline-grid;
+  height: 300px;
+  text-align: center;
+
+}
+
+#space_three {
+  padding-bottom: 150px;
 }
 
 /* sign up */
@@ -292,7 +314,7 @@ input{
 }
 
 .usercomment{
-    
+
     border: 2px solid ;
     padding: .5em;
 }
