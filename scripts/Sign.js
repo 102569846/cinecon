@@ -44,7 +44,7 @@ $(document).ready(function()
 
                 alert('Login successful!\nYou will now be taken to the home page once you close this prompt.')
                 setTimeout(function(){
-                    location.replace("Home.html")
+                    location.replace("index.html")
                 }, 500);
             } else {
                 $('#nouser').css("display","block")
